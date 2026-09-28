@@ -22,7 +22,7 @@ public class CalculatorTests
         double result = _calculator.Add(10, 20);
 
         // Assert
-        Assert.That(result, Is.EqualTo(31));
+        Assert.That(result, Is.EqualTo(30));
     }
     [TestCase(0, 0, 0)]
     [TestCase(0, 5, 5)]
